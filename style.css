@@ -1,0 +1,39 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0099ff;
+  color: white;
+}
+
+.guessField {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.guessSubmit {
+  background-color: white;
+  color: black;
+  padding: 10px 5px;
+  border-radius: 7px;
+  border-style: none;
+}
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+.form {
+  display: flex;
+}
